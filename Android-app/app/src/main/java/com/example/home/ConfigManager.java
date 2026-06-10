@@ -5,7 +5,7 @@ package com.example.home;
  * TODO: Move credentials to BuildConfig or environment variables for production
  */
 public class ConfigManager {
-    public static final String MQTT_BROKER = "ssl://4348e232bb5545858370951f4fe2d907.s1.eu.hivemq.cloud:8883";
+    public static final String MQTT_BROKER = "YOUR_BROKER";
     public static final String MQTT_USER = "YOUR_USERNAME";
     public static final String MQTT_PASS = "YOUR_PASSWORD";
 }
