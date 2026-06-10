@@ -1,1 +1,41 @@
+                    ESP32 DEVKIT V1
+              ┌─────────────────────────┐
+              │                         │
+ OUTPUT PINS  │ GPIO18 ──────────── IN1 │ ─── Fan1
+ (to Relay)   │ GPIO19 ──────────── IN2 │ ─── Fan2
+              │ GPIO21 ──────────── IN3 │ ─── Light
+              │ GPIO5  ──────────── IN4 │ ─── TV
+              │                         │
+ POWER        │ 5V   ─────────────── VCC│ ─── Relay Power
+              │ GND  ─────────────── GND│ ─── Common Ground
+              └─────────────────────────┘
 
+
+        ┌────────────────────────────────────┐
+        │        4-CHANNEL RELAY MODULE      │
+        │                                    │
+        │ IN1 ── Fan1 Relay Control          │
+        │ IN2 ── Fan2 Relay Control          │
+        │ IN3 ── Light Relay Control         │
+        │ IN4 ── TV Relay Control            │
+        │                                    │
+        │ VCC ── 5V Supply                   │
+        │ GND ── Common Ground               │
+        └────────────────────────────────────┘
+
+
+        🔌 RELAY OUTPUT SIDE (AC LOADS)
+
+        COM1 ───── Live AC Input
+        NO1  ───── Fan1 Load
+
+        COM2 ───── Live AC Input
+        NO2  ───── Fan2 Load
+
+        COM3 ───── Live AC Input
+        NO3  ───── Light Load
+
+        COM4 ───── Live AC Input
+        NO4  ───── TV Load
+
+        Neutral ─────────────── Direct to all loads
