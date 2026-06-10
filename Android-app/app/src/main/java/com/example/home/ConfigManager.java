@@ -6,6 +6,6 @@ package com.example.home;
  */
 public class ConfigManager {
     public static final String MQTT_BROKER = "ssl://4348e232bb5545858370951f4fe2d907.s1.eu.hivemq.cloud:8883";
-    public static final String MQTT_USER = "Suriya";
-    public static final String MQTT_PASS = "Suriya6anbu6@#";
+    public static final String MQTT_USER = "YOUR_USERNAME";
+    public static final String MQTT_PASS = "YOUR_PASSWORD";
 }
